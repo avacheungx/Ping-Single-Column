@@ -1,5 +1,5 @@
 body{
-    font-family:'Libre Franklin';
+    font-family:'Libre Franklin', sans-serif;
     display:flex;
     align-items: center;
     justify-content:center;
@@ -43,7 +43,7 @@ main{
     justify-content:center;
 }
 
-.user-input{
+#subscription-form{
     display:flex;
     flex-direction:row;
     margin-bottom:60px;
@@ -79,6 +79,9 @@ main{
 .error-message{
     color:hsl(354, 100%, 66%);
     font-size:12px;
+    margin-bottom:5x;
+    visibility: hidden;
+    display: block;
 }
 .dashboard-img{
     width:600px;
@@ -118,4 +121,5 @@ footer{
 .attribution{
     font-size:10px;
     color:hsl(0, 0%, 59%);
+    margin-top:10px;
 }
