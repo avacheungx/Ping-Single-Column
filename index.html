@@ -3,32 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Ping coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;700&display=swap"/>
 </head>
+
 <body>
+  <header>
+    <div class="logo">
+      <img class="logo-img" src="images/logo.svg" alt="ping logo">
+    </div>
+    <div class="message">
+      <h1>We are launching <strong>soon!</strong></h1>
+      <h2>Subscribe and get notified</h2>
+    </div>
+  </header>
 
-  We are launching soon!
-
-  Subscribe and get notified
-
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
+  <main>
+    <section class="user-input">
+      <div class="email-input">
+        <input type="text" placeholder="Your email address..." aria-label="Your email">
+      </div>
+      <div class="notify-btn">
+        <button aria-label="Notify">Notify Me</button>
+      </div>
+    </section>
+    <section class="main-img">
+      <img class="dashboard-img" src="images/illustration-dashboard.png">
+    </section>
+  </main>
 
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+    <nav>
+      <div class="social-btns">
+        <button class="scl-btn" aria-label="facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </button>
+        <button class="scl-btn" aria-label="twitter">
+          <i class="fa-brands fa-twitter"></i>
+        </button>
+        <button class="scl-btn" aria-label="instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </button>
+      </div>
+    </nav>
+
+    <footer>
+      <div class="copyright">
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+      <div class="attribution">
+        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Juno</a>.</p>
+      </div>
+    </footer>
   </footer>
+
 </body>
 </html>
