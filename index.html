@@ -21,14 +21,17 @@
   </header>
 
   <main>
-    <section class="user-input">
+    <form class="user-input">
       <div class="email-input">
-        <input type="text" placeholder="Your email address..." aria-label="Your email">
+        <input type="email" id="email" placeholder="Your email address..." aria-label="Your email">
       </div>
       <div class="notify-btn">
-        <button aria-label="Notify">Notify Me</button>
+        <button type="submit" aria-label="Notify">Notify Me</button>
       </div>
-    </section>
+    </form>
+    <div class="error-message">
+
+    </div>
     <section class="main-img">
       <img class="dashboard-img" src="images/illustration-dashboard.png">
     </section>
@@ -59,6 +62,7 @@
       </div>
     </footer>
   </footer>
+  <script src="script.js"></script>
 
 </body>
 </html>

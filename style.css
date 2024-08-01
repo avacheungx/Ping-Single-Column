@@ -51,25 +51,37 @@ main{
 
 .email-input input::placeholder{
     color:hsl(223, 100%, 88%);
+    font-size:16px;
+    font-weight:300;
 }
 .email-input input{
-    padding:10px 100px 10px 20px;
+    padding:14px 40px;
     border:1px solid;
     border-radius:20px;
     border-color:hsl(223, 100%, 88%);
     margin-right:10px;
+    width:300px;
 }
 
 .notify-btn button{
-    padding:10px 40px;
+    padding:14px 50px;
     border:none;
     border-radius:20px;
     background-color: hsl(223, 87%, 63%);
     color:white;
+    font-size:14px;
 }
 
+.notify-btn  button:hover{
+    background-color:hsl(223, 74%, 73%);
+}
+
+.error-message{
+    color:hsl(354, 100%, 66%);
+    font-size:12px;
+}
 .dashboard-img{
-    width:400px;
+    width:600px;
     margin-bottom:60px;
 }
 
@@ -81,7 +93,6 @@ footer{
 }
 
 .social-btns button{
-    
     display:inline;
     color:hsl(223, 87%, 63%);
     background-color: white;
@@ -89,6 +100,13 @@ footer{
     border-radius:50%;
     border:1px solid;
     border-color:hsl(223, 100%, 88%);
+    height:30px;
+    width:30px;
+}
+
+.social-btns button:hover{
+    background-color:hsl(223, 87%, 63%);
+    color:white;
 }
 
 .copyright{
