@@ -35,9 +35,8 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/avacheungx/Ping-Single-Column
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://avacheungx.github.io/Ping-Single-Column/
 
-## My process
 
 ### Built with
 
