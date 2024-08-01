@@ -27,6 +27,9 @@ Users should be able to:
 	- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
 
 ### Screenshot
+<img width="1514" alt="Screenshot 2024-08-01 at 1 36 43 PM" src="https://github.com/user-attachments/assets/5ee1a5e9-27e9-41b5-a047-f2623cfc0a80">
+<img width="1515" alt="Screenshot 2024-08-01 at 1 37 19 PM" src="https://github.com/user-attachments/assets/83120223-0589-4472-9465-da20eed49636">
+<img width="1513" alt="Screenshot 2024-08-01 at 1 36 56 PM" src="https://github.com/user-attachments/assets/3f43ea6a-974b-4c32-9f92-bcbe59aba271">
 
 
 ### Links
